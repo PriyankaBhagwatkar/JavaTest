@@ -22,7 +22,7 @@ public class HelloWorld {
 	
 	
 	public static void main(String[] args) {
-		int[] arr = { 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 };
+		int[] arr = { 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ,23,56};
 		int target = 12;
 		int result = binarySearch(arr, target);
 		if (result == -1) {
